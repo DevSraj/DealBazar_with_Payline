@@ -1,0 +1,108 @@
+/* Hero.css */
+
+.hero {
+  display: flex;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea 60%);
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 180px;
+  line-height: 1.1;
+}
+
+.hero-left h2 {
+  font-size: 26px;
+  text-align: left;
+  color: #0a0a0a;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-left p {
+  font-size: 36px; /* Adjust font size */
+  font-weight: 900;
+  color: #0a0a0a;
+
+}
+
+.hand-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.left-para p{
+  font-size: 100px; /* Adjust font size */
+  font-weight: 900;
+  color: #0a0a0a;
+  text-align: left;
+}
+
+.hand-hand-icon img {
+  width: 105px;
+  height: 105px;
+}
+
+.hand-hand-icon p {
+  font-size: 100px; /* Adjust font size */
+  font-weight: 900;
+}
+
+.hero-latest-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ 
+}
+
+.hero-latest-btn:hover {
+  background-color: #ff5500;
+  
+}
+.hero-latest-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: width 0.3s ease;
+  z-index: -2;
+}
+
+.hero-latest-btn:hover::before {
+  left: 0;
+  width: 100%;
+}
+
+.hero-latest-btn:hover a {
+  color: #fff; /* Change text color on hover */
+}
+
+.hero-latest-btn img {
+  margin-left: 10px;
+  width: 20px;
+  
+  height: 20px;
+}
+
+.hero-right img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}

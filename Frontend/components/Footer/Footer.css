@@ -1,0 +1,110 @@
+/* Footer.css */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  border-radius:80px ;
+  /* background-color: #ffecec; */
+  padding: 20px 20px;
+  background: linear-gradient(180deg , #ffe1fd 0% , #ffffff 60%);
+  
+}
+
+.footer-logo {
+  display: flex;
+  gap: 20px;
+  padding: 20px 300px;
+  margin: 30px 20px ;
+}
+
+.brand {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: poppins;
+    color: #333333;
+}
+.footer-logo img {
+  width: 100px; /* Adjust image width */
+  height: auto;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #252525;
+  font-size: 18px; /* Reduce font size for links */
+  margin-left: 50%; /* Add margin to separate from the logo */
+}
+.footer-description{
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 67%;
+    margin-right: 10%;
+}
+
+.footer-description p{
+    font-size: 18px;
+    color: #252525;
+    margin-top: 15px;
+}
+.footer-links li {
+  cursor: pointer;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #666;
+}
+
+.footer-links a:hover {
+  color: #333;
+}
+
+.footer-social-icon {
+  display: flex;
+  gap: 50px; /* Adjust gap between social icons */
+  margin-top: 0px;
+  padding: 20px 300px;
+  
+}
+
+.footer-social-icon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f2f2f2; /* Background color for social icon container */
+}
+
+.footer-social-icon img {
+  width: 40px; /* Adjust social icon width */
+  height: 40px;
+  gap: 40px;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px; /* Adjust gap between elements */
+  width: 100%;
+  font-size: 16px; /* Reduce font size for copyright */
+}
+
+.footer-copyright hr {
+  width: 80%;
+  border: none;
+  border-top: 3px solid #eff2f1;
+  margin-bottom: 10px; /* Reduce margin */
+  border-radius: 10px;
+  background: #c7c7c7;
+}
+
+.footer-copyright p {
+  color: #333333;
+  margin-bottom: 10px; /* Reduce margin */
+}
