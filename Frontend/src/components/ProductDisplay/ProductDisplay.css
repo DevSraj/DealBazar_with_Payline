@@ -1,0 +1,177 @@
+.productdisplay{
+    display: flex;
+    margin: 0px 170px;
+    margin-bottom: 100px
+}
+.productdisplay-left{
+    display: flex;
+    gap:20px;
+
+}
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.productdisplay-img-list img{
+    height: 163px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.productdisplay-img-list img:hover{
+    border: 1px solid #37373759;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.productdisplay-main-img{
+    width: 586px;
+    height: 700px;
+    border-radius: 5px;
+}
+
+.productdisplay-right{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 70px ;
+
+}
+
+.productdisplay-right h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #3d3d3d;
+    text-align: left;
+}
+.productdisplay-right-description{
+    text-align: left;
+}
+
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 13px;
+    color: #1c1c1c;
+    font-size: 16px;
+
+}
+.productdisplay-right-prices{
+    display: flex;
+    gap :30px;
+    font-weight: 700;
+    margin: 40px 0px;
+    font-size: 24px;
+
+}
+
+.productdisplay-right-price-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+.productdisplay-right-price-new{
+    color: #ff4141;
+}
+
+.productdisplay-right-size h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 55px;
+    color: #656565;
+
+}
+.productdisplay-right-size{
+    margin: 30px 0px;
+}
+.productdisplay-right-size-select {
+    display: flex; 
+  }
+  
+  .productdisplay-right-size-select div {
+    padding: 18px 18px;
+    background: #f4f3f3d9;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .productdisplay-right-size-select div.selected {
+    background-color: red; /* Change background color when selected */
+  }
+  
+  .productdisplay-right-size-select div:hover {
+    background-color: #ffcccc; /* Change background color on hover */
+  }
+  
+
+.productdisplay-right button{
+    padding: 20px 40px ;
+    width: 200px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fbfbfb;
+    background: #ff4141;
+    margin-bottom:40px ;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.productdisplay-right-category{
+    margin-top: 10px;
+    text-align: left;
+}
+.productdisplay-right-category span{
+    font-weight: 600;
+    
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column; /* Set flex-direction to column */
+    align-items: center; /* Center align items */
+  }
+  
+  
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+  }
+  
+  .close:hover {
+    color: #000;
+  }
+  .pop-button {
+    margin-top: 10px;
+    background-color: #ff4141;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+

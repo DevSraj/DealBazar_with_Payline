@@ -1,0 +1,113 @@
+.cartitems {
+    margin: 100px 170px;
+  }
+  
+  .cartitems hr {
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+  }
+  
+  .cartitems-format-main {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .cartitems-format {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  .cartitems-product-icon {
+    height: 62px;
+  }
+  
+  .cartitems-remove-icon {
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+  }
+  
+  .cartitems-down {
+    display: flex;
+    margin: 100px 0px;
+  }
+  
+  .cartitems-total {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .cartitems-total-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+  }
+  
+  .cartitems-total button {
+    width: 600px;
+    height: 58px;
+    outline: none;
+    background: #ff5a5a;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cartitems-promocode {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 0; /* Remove right margin */
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .cartitems-promocode p {
+    color: #555;
+  }
+  
+  .cartitems-promobox {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    border-radius: 10px;
+    background: #eaeaea;
+  }
+  
+  .cartitems-promobox input {
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    background: transparent;
+  }
+  
+  .cartitems-promobox button {
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: black;
+    cursor: pointer;
+    color: white;
+  }
+  

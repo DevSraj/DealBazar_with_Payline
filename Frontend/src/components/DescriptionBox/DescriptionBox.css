@@ -1,0 +1,70 @@
+.descriptionbox{
+    margin: 120px 170px;
+}
+
+.descriptionboc-navigator {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+   
+  }
+  
+  .descriptionbox-nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 120px;
+    color: #f4f4f4;
+    height: 50px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #fa2424ce;
+   cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+
+  .descriptionbox-nav-review-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 120px;
+    height: 50px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #f4f4f4;
+   cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .descriptionbox-nav-box:hover {
+    background-color: #fa2c2c; /* Change background color on hover */
+  }
+
+  .descriptionbox-nav-review-box:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+  }
+  
+  .descriptionbox-description {
+    margin-top: 20px;
+    /* Add space between navigator and description */
+  }
+
+  
+  .descriptionbox-description  {
+    margin-bottom: 20px; /* Add space between paragraphs */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #D0D0D0;
+    padding: 48px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+
+    
+  }

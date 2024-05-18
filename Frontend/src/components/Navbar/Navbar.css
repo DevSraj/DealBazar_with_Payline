@@ -1,0 +1,117 @@
+/* Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Add a class to style the active tab */
+.active {
+    border-bottom: 2px solid #ffd700; /* Yellow bar below active tab */
+  }
+  
+  /* Rest of the styles remain the same */
+  .navbar {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .nav-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .nav-menu li:hover {
+    color: #ffd700; /* Change color on hover */
+    transition: color 0.3s ease;
+     
+  }
+  
+  .nav-login-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-login-cart button {
+    background-color: #ffd700;
+    color: #1e212d;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .nav-login-cart button:hover {
+    background-color: #ff0000; /* Change background color on hover */
+  }
+  
+  .nav-login-cart img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  /* Add animation to the cart icon */
+  @keyframes cart-bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .nav-login-cart img:hover {
+    animation: cart-bounce 0.5s ease; /* Apply animation on hover */
+  }
+
+  .nav-cart-count {
+    background-color: #ff1100;
+    color: #000000;
+    border-radius: 50%;
+    padding: 0px 3px;
+    font-size: 10px;
+    position: absolute;
+    top: 6px;
+    right: 10%;
+    min-width: 10px;
+    text-align: center;
+  }
+
+  @media(max-width:1280px){
+    .navbar{
+      padding: 12px 50px;
+    }
+    .nav-logo img{
+      width: 50px;
+    }
+    .nav-logo p{
+      font-size: 25px;
+    }
+  }
+  
