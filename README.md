@@ -1,6 +1,6 @@
-# Shopper - E-commerce Frontend Website
+# DealBazar with Payline
 
-Welcome to Shopper, an e-commerce frontend website built using React. This project is designed to provide a seamless shopping experience for users, featuring a modern and responsive design. This README file will guide you through the setup, installation, and usage of this project.
+Welcome to DealBazar, an e-commerce frontend website built using React. This project is designed to provide a seamless shopping experience for users, featuring a modern and responsive design.It also integrates our own blockchain based payment gateway, Payline. Integrates AI features for fraud detection and prevention. This README file will guide you through the setup, installation, and usage of this project.
 
 ## Demo
 
@@ -8,14 +8,11 @@ You can check out the live demo of the Shopper website [here](#).
 
 ## Features
 
-- Responsive design for optimal viewing on any device
-- Product listing with filtering and sorting options
-- Product detail pages with images, descriptions, and reviews
-- Shopping cart functionality
-- User authentication and profile management
-- Order management and checkout process
-- Search functionality
-- Admin panel for product management
+- Responsive design of website for optimal viewing on any device
+- Full control over blockain being used
+- Powerful and efficient AI integration 
+- Own cryptocurrency
+- Various fraud detection and preventive measure
 
 ## Technologies Used
 
@@ -40,7 +37,7 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/shopper.git
+git clone https://github.com/your-username/DealBazar_with_Payline.git
 cd shopper
 ```
 
