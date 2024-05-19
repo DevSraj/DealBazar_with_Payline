@@ -1,0 +1,23 @@
+<!-- instant-loan.component.html -->
+<div class="body1">
+    <div class="instant-loan">
+        <h1>Get Instant Loan</h1>
+        <div class="form-group">
+            <label for="currency">Select Currency:</label>
+            <select id="currency" [(ngModel)]="selectedCurrency">
+                <option value="BTC">Bitcoin</option>
+                <option value="ETH">Ethereum</option>
+                <option value="LTC">Litecoin</option>
+                <option value="XRP">Ripple (XRP)</option>
+                <!-- Add more options for other currencies -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="amount">Enter Amount:</label>
+            <input type="number" id="amount" [(ngModel)]="amount" placeholder="Enter loan amount">
+        </div>
+        <div class="form-group">
+            <button class="btn-loan">Get Instant Loan</button>
+        </div>
+    </div>
+</div>

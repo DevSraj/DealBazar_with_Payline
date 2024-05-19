@@ -1,0 +1,42 @@
+<div class="body1">
+    <div class="payment-form">
+      <h1>Make a Payment</h1>
+      <div class="form-group">
+        <label for="payTo">Pay via:</label>
+        <select id="payTo" [(ngModel)]="payTo" (change)="updatePayVia()">
+          <option value="username">Username</option>
+          <option value="mobile">Mobile Number</option>
+          <option value="email">Email</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="recipient">Enter {{ payVia }}:</label>
+        <input type="text" id="recipient" [(ngModel)]="recipient" placeholder="Enter recipient's details">
+      </div>
+      <div class="form-group">
+        <label for="currency">Select Currency:</label>
+        <select id="currency" [(ngModel)]="selectedCurrency" (change)="convertAmount()">
+          <option *ngFor="let currency of currencies" [value]="currency.code">{{ currency.name }}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" [(ngModel)]="amount" placeholder="Enter amount">
+      </div>
+      <div class="form-group">
+        <label for="note">Note:</label>
+        <textarea id="note" [(ngModel)]="note" placeholder="Enter a personal note"></textarea>
+      </div>
+      <div class="form-group">
+        <button (click)="pay()">Pay</button>
+      </div>
+
+      <div class="form-group clearfix">
+        <div class="right-content">
+            <div class="insufficient-balance">Insufficient Balance ?</div>
+            <button routerLink="/instantloan" class="take-loan">Take an Instant Loan</button>
+        </div>
+    </div>
+    </div>
+  </div>
+  

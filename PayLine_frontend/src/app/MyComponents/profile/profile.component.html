@@ -1,0 +1,45 @@
+<!-- credit-score-tracker.component.html -->
+<div class="profile-container">
+    <div class="profile-header">
+        <img src="path/to/profile-pic.jpg" alt="Profile Picture">
+    </div>
+    <div class="profile-details">
+        <h2>Profile Details</h2>
+        <div class="profile-info">
+            <label>Email Address:</label>
+            <span>{{ emailAddress }}</span>
+        </div>
+        <div class="profile-info">
+            <label>Username:</label>
+            <span>{{ username }}</span>
+        </div>
+        <div class="profile-info">
+            <label>Bank:</label>
+            <span>{{ bank }}</span>
+        </div>
+        <div class="profile-info">
+            <label>Address:</label>
+            <span>{{ address }}</span>
+        </div>
+        <div class="profile-info">
+            <label>Date of Birth:</label>
+            <span>{{ dob }}</span>
+        </div>
+        <div class="profile-info">
+            <label>Bank Name:</label>
+            <span>{{ bankName }}</span>
+        </div>
+        <div class="profile-info">
+            <h3>Expenditure Over Months</h3>
+            <canvas id="expenditureChart"></canvas>
+        </div>
+    </div>
+
+    <div class="credit-score-container">
+        <h1>Credit Score Tracker</h1>
+        <div class="credit-score">
+            <div class="score">{{ creditScore }}</div>
+            <div class="description">Your Credit Score</div>
+        </div>
+    </div>
+</div>

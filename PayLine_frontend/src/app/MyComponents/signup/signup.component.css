@@ -1,0 +1,35 @@
+/* signup.component.css */
+.body1 {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set height to viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  text-align: center; /* Center text */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  color:white;
+}
+
+.btn-black-yellow {
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn-black-yellow:hover {
+  background-color: purple;
+  color:white;
+}

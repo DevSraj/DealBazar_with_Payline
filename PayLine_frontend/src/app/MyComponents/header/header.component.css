@@ -1,0 +1,53 @@
+/* Navbar background color and text color */
+.navbar {
+    background-color: black;
+    padding-left: 20px; /* Padding for leftmost elements */
+    padding-right: 20px; /* Padding for rightmost elements */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: yellow;
+  }
+
+  .navbar-brand{
+    margin-left: 50px;
+  }
+  
+  /* Dropdown menu background color and text color */
+  .dropdown-menu {
+    background-color: black;
+  }
+  
+  .dropdown-item {
+    color: yellow !important;
+  }
+  
+  /* Login and Signup button styling */
+  .btn-purple {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: 1300px;
+  }
+  
+  .btn-purple:hover {
+    background-color: yellow;
+    color:black;
+  }
+
+  .btn-purple1 {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left :10px;
+  }
+  
+  .btn-purple1:hover {
+    background-color: yellow;
+    color:black;
+  }
+  

@@ -1,0 +1,69 @@
+/* payment-form.component.css */
+.body1 {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-form {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    color: yellow;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+    color: yellow;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd700;
+}
+
+/* payment-form.component.css */
+/* ... (existing styles) ... */
+
+
+
+.insufficient-balance {
+    color: red;
+    margin-right: 10px; /* Add some spacing between elements */
+}
+
+.take-loan {
+    background-color: black;
+    color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+.take-loan:hover {
+    background-color: #333;
+}

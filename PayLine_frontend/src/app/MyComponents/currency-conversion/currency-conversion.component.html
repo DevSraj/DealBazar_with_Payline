@@ -1,0 +1,26 @@
+<!-- currency-converter.component.html -->
+<div class="body1">
+  <div class="currency-converter">
+      <h1>Currency Converter</h1>
+      <div class="input-group">
+          <label for="amount">Amount:</label>
+          <input type="number" id="amount" [(ngModel)]="amount" placeholder="Enter amount">
+      </div>
+      <div class="input-group">
+          <label for="fromCurrency">From Currency:</label>
+          <select id="fromCurrency" [(ngModel)]="fromCurrency">
+              <option *ngFor="let currency of currencies" [value]="currency">{{ currency }}</option>
+          </select>
+      </div>
+      <div class="input-group">
+          <label for="toCurrency">To Currency:</label>
+          <select id="toCurrency" [(ngModel)]="toCurrency">
+              <option *ngFor="let currency of currencies" [value]="currency">{{ currency }}</option>
+          </select>
+      </div>
+      <button (click)="convert()" class="btn-convert">Convert</button>
+      <div *ngIf="convertedAmount !== null" class="result">
+          <p>Converted Amount: {{ convertedAmount }}</p>
+      </div>
+  </div>
+</div>

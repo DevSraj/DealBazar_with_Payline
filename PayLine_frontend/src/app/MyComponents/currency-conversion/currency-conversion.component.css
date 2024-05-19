@@ -1,0 +1,54 @@
+/* currency-converter.component.css */
+.body1 {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-converter {
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+  color: yellow;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+select, input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+button.btn-convert {
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button.btn-convert:hover {
+  background-color: purple;
+  color:white;
+}
+
+.result {
+  margin-top: 20px;
+  color: white;
+}
